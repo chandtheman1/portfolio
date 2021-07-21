@@ -4,7 +4,6 @@
 
 * {
     box-sizing: border-box;
-    font-size: 36px;
     font-family: 'Open Sans', sans-serif;
     color: var(--white);
 }
@@ -14,12 +13,13 @@ body {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 10rem;
     text-align: center;
 }
 
 h3 {
     text-align: center;
+    font-size: 3rem;
     padding: 10px;
 }
 
@@ -47,10 +47,13 @@ h4 {
     color: rgb(39, 35, 35);
     text-align: center;
     font-weight: bolder;
+    font-size: 2rem;
 }
 
 a {
     margin: 2px;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 .footer {
