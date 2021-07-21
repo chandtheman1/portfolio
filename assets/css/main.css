@@ -23,6 +23,12 @@ h3 {
     padding: 10px;
 }
 
+.main-icon {
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+}
+
 .portfolio {
     display: flex;
     flex-flow: row wrap;
@@ -34,4 +40,25 @@ h3 {
     padding: 10px;
     margin: 5px;
     border-radius: 5%;
+    background-color: var(--white);
+}
+
+h4 {
+    color: rgb(39, 35, 35);
+    text-align: center;
+    font-weight: bolder;
+}
+
+a {
+    margin: 2px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+i {
+    padding: 10px;
 }
