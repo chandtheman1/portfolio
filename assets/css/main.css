@@ -1,0 +1,37 @@
+:root {
+    --white: #ddd1d1;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white);
+}
+
+body {
+    background-color: rgb(39, 35, 35);
+}
+
+h1 {
+    font-size: 8rem;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5%;
+}
