@@ -4,7 +4,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: var(--white);
 }
 
@@ -23,6 +23,7 @@ h3 {
     padding: 10px;
 }
 
+
 .main-icon {
     display:flex;
     justify-content: center;
@@ -32,7 +33,17 @@ h3 {
 .portfolio {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
 }
+
+img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
+}
+
+
 
 .card {
     width: max-content;
@@ -53,15 +64,20 @@ h4 {
 a {
     margin: 2px;
     text-decoration: none;
-    font-size: 2rem;
+    width: max-content;
 }
 
 .footer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 i {
     padding: 10px;
+}
+
+.btn {
+    font-size: 2rem;
+    border-radius: 5%;
 }
